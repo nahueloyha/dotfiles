@@ -1,18 +1,13 @@
 cask_args appdir: "/Applications"
 # tap 'caskroom/cask'
-# tap 'homebrew/cask'
-
-tap homebrew/bundle
-tap homebrew/cask
-tap homebrew/cask-fonts
-tap homebrew/core
-tap homebrew/services
-tap mas-cli/tap
+#tap homebrew/cask
+#tap homebrew/cask-fonts
+#tap homebrew/core
 
 # brew install BLA = brew BLA
 # brew install --cask  BLA = cask BLA
 
-# Chat / Call
+## Chat / Call
 cask "zoom" 
 cask "slack"
 cask "discord" 
@@ -20,27 +15,27 @@ cask "telegram"
 cask "whatsapp" 
 cask "microsoft-teams" 
 
-# Media
+## Media
 cask "spotify" 
 cask "vlc" 
 # preview 
 # stremio 
 
 ## Office
-cask "microsoft-excel"
-cask "microsoft-word"
-cask "microsoft-powerpoint"
+#cask "microsoft-excel"
+#cask "microsoft-word"
+#cask "microsoft-powerpoint"
 cask "adobe-acrobat-reader" 
 cask "google-drive" 
 # textedit 
 
-## Productivity
+### Productivity
 cask "marta"
 cask "iterm2"
 # safari
 cask "firefox"
 cask "google-chrome"
-cask "brave"
+cask "brave-browser"
 cask "visual-studio-code"
 cask "postman"
 cask "docker" 
@@ -50,14 +45,14 @@ cask "docker"
 # arduino
 # minikube
 
-## Settings
+### Settings
 # app store 
 # system preferences 
 # activity monitor 
 # mission control 
 # find my 
 
-## Tools
+### Tools
 cask "simplenote" 
 # calculator 
 # photo boot 
@@ -68,22 +63,22 @@ cask "kindle"
 mas "Horo", id: 1437226581
 mas "Pocket", id: 568494494
 cask "macmediakeyforwarder"
-mas "Boop", id: 1518425043
-mas "Duplicate File Finder", id: 1032755628
+#mas "Boop", id: 1518425043
+#mas "Duplicate File Finder", id: 1032755628
 # tableplus
 # wireshark
 # clocker
 # amphetamine
 
-## Development tools
+### Development tools
 brew "pre-commit"
 brew "mongosh"
-brew "composer"
-brew "ruby"
+#brew "composer"
+#brew "ruby"
 brew "awscli"
 brew "antigen"
 
-## System tools
+### System tools
 brew "git"
 brew "curl"
 brew "nmap"
@@ -96,21 +91,16 @@ brew "telnet"
 brew "gcc"
 brew "openssl"
 brew "jq"
-brew "unrar"
-brew "unzip"
 brew "gnu-tar"
 brew "gnu-sed"
 brew "gnu-time"
 brew "gnu-which"
 
-## Terraform tools
-brew "terraform-docs"
-brew "terrascan"
+### Terraform tools
+#brew "terraform-docs"
+#brew "terrascan"
 brew "tfenv"
 brew "tflint"
 brew "tfsec"
-
-
-
-
-
+tap "coretech/terrafile"
+brew "terrafile"
