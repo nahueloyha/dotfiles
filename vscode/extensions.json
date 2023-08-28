@@ -1,11 +1,14 @@
-amazonwebservices.aws-toolkit-vscode
 DavidAnson.vscode-markdownlint
+eamodio.gitlens
 esbenp.prettier-vscode
-formulahendry.vscode-mysql
+GitHub.copilot
 hashicorp.terraform
-ms-python.python
+ms-azuretools.vscode-docker
+nhoizey.gremlins
 oderwat.indent-rainbow
 redhat.vscode-yaml
 SebastienMa.ansi-color-code
+timkmecl.chatgpt
 vscode-icons-team.vscode-icons
+wayou.vscode-todo-highlight
 ZainChen.json

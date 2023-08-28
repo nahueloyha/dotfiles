@@ -1,5 +1,9 @@
 {
-  "Custom Directory" : "No",
+  "Ansi 3 Color" : {
+    "Green Component" : 0.73333334922790527,
+    "Red Component" : 0.73333334922790527,
+    "Blue Component" : 0
+  },
   "Tags" : [
 
   ],
@@ -15,13 +19,17 @@
     "Red Component" : 1,
     "Blue Component" : 1
   },
-  "Ansi 4 Color" : {
+  "Transparency" : 0,
+  "Ansi 5 Color" : {
     "Green Component" : 0,
+    "Red Component" : 0.73333334922790527,
+    "Blue Component" : 0.73333334922790527
+  },
+  "Ansi 6 Color" : {
+    "Green Component" : 0.73333334922790527,
     "Red Component" : 0,
     "Blue Component" : 0.73333334922790527
   },
-  "Right Option Key Sends" : 0,
-  "Use Non-ASCII Font" : false,
   "Rows" : 25,
   "Default Bookmark" : "No",
   "Non-ASCII Anti Aliased" : true,
@@ -48,15 +56,15 @@
     "Red Component" : 0.73333334922790527,
     "Blue Component" : 0.73333334922790527
   },
-  "Working Directory" : "\/Users\/nahueloyha",
+  "Working Directory" : "\/Users\/nahueloyhanarte",
   "Blinking Cursor" : false,
   "Disable Window Resizing" : true,
   "Sync Title" : false,
   "Prompt Before Closing 2" : false,
   "BM Growl" : true,
-  "Mouse Reporting" : true,
-  "Command" : "",
+  "Command" : "\/bin\/zsh",
   "Description" : "Default",
+  "Mouse Reporting" : true,
   "Screen" : -1,
   "Selection Color" : {
     "Green Component" : 0.8353000283241272,
@@ -71,7 +79,7 @@
     "Red Component" : 1,
     "Blue Component" : 1
   },
-  "Custom Command" : "No",
+  "Custom Command" : "Custom Shell",
   "ASCII Anti Aliased" : true,
   "Non Ascii Font" : "Monaco 12",
   "Vertical Spacing" : 1,
@@ -94,7 +102,7 @@
     "Blue Component" : 0.3333333432674408
   },
   "Use Italic Font" : true,
-  "Unlimited Scrollback" : false,
+  "Unlimited Scrollback" : true,
   "Keyboard Map" : {
     "0xf700-0x260000" : {
       "Text" : "[1;6A",
@@ -192,10 +200,6 @@
       "Text" : "[1;2D",
       "Action" : 10
     },
-    "0xf703-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x43",
-      "Action" : 11
-    },
     "0xf700-0x240000" : {
       "Text" : "[1;5A",
       "Action" : 10
@@ -223,10 +227,6 @@
     "0xf701-0x260000" : {
       "Text" : "[1;6B",
       "Action" : 10
-    },
-    "0xf702-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x44",
-      "Action" : 11
     },
     "0xf72b-0x20000" : {
       "Text" : "[1;2F",
@@ -260,7 +260,7 @@
   "Window Type" : 0,
   "Background Image Location" : "",
   "Blur" : false,
-  "Scrollback Lines" : 1000,
+  "Scrollback Lines" : 0,
   "Send Code When Idle" : false,
   "Close Sessions On End" : true,
   "Terminal Type" : "xterm-256color",
@@ -290,21 +290,21 @@
     "Red Component" : 0,
     "Blue Component" : 0
   },
-  "Guid" : "1B022618-6DDC-43B4-AA3B-8769B4E5670A",
-  "Horizontal Spacing" : 1,
-  "Ansi 3 Color" : {
-    "Green Component" : 0.73333334922790527,
+  "Ansi 1 Color" : {
+    "Green Component" : 0,
     "Red Component" : 0.73333334922790527,
     "Blue Component" : 0
   },
-  "Transparency" : 0,
-  "Ansi 5 Color" : {
-    "Green Component" : 0,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527
-  },
-  "Ansi 6 Color" : {
+  "Ansi 2 Color" : {
     "Green Component" : 0.73333334922790527,
+    "Red Component" : 0,
+    "Blue Component" : 0
+  },
+  "Guid" : "F75A82C6-4B6B-4576-837A-0332FC0C272C",
+  "Custom Directory" : "No",
+  "Horizontal Spacing" : 1,
+  "Ansi 4 Color" : {
+    "Green Component" : 0,
     "Red Component" : 0,
     "Blue Component" : 0.73333334922790527
   },
@@ -323,14 +323,6 @@
     "Red Component" : 1,
     "Blue Component" : 0.3333333432674408
   },
-  "Ansi 1 Color" : {
-    "Green Component" : 0,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0
-  },
-  "Ansi 2 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0,
-    "Blue Component" : 0
-  }
+  "Right Option Key Sends" : 0,
+  "Use Non-ASCII Font" : false
 }

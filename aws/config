@@ -2,14 +2,6 @@
 region = us-east-1
 output = table
 
-[profile smartgarage]
-region = us-east-1
-output = table
-
 [profile default]
-region = us-east-1
-output = table
-
-[profile univtec]
 region = us-east-1
 output = json

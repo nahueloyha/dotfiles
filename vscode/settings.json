@@ -1,0 +1,51 @@
+{
+  "editor.accessibilitySupport" : "off",
+  "telemetry.telemetryLevel" : "error",
+  "gitlens.hovers.currentLine.over" : "line",
+  "editor.minimap.enabled" : false,
+  "security.workspace.trust.untrustedFiles" : "open",
+  "editor.renderWhitespace" : "all",
+  "workbench.iconTheme" : "vscode-icons",
+  "workbench.editor.highlightModifiedTabs" : true,
+  "gitlens.codeLens.enabled" : false,
+  "redhat.telemetry.enabled" : false,
+  "explorer.compactFolders" : false,
+  "workbench.enableExperiments" : false,
+  "workbench.colorTheme" : "Default Dark+",
+  "workbench.editor.enablePreview" : false,
+  "workbench.editor.focusRecentEditorAfterClose" : false,
+  "gitlens.currentLine.enabled": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
+  "editor.autoClosingQuotes": "never",
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.wordBasedSuggestions": false,
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "window.zoomLevel": 1,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "chatgpt.apiKey": "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",
+  "chatgpt.timeoutLength": 30
+}
