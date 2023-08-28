@@ -61,6 +61,9 @@ mas "Pocket", id: 568494494
 # tableplus
 # wireshark
 # amphetamine
+# ledger
+# raycast
+# protonvpn
 
 ## Development tools
 brew "pre-commit"
