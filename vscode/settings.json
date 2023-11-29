@@ -35,7 +35,6 @@
     "plaintext": false,
     "markdown": false
   },
-  "window.zoomLevel": 1,
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
@@ -47,5 +46,15 @@
     "editor.formatOnSaveMode": "file"
   },
   "chatgpt.apiKey": "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",
-  "chatgpt.timeoutLength": 30
+  "chatgpt.timeoutLength": 30,
+  "git.openRepositoryInParentFolders": "never",
+  "markdownlint.run": "onSave",
+  "markdownlint.focusMode": true,
+  "markdownlint.ignore": [
+    "warden.md"
+  ],
+  "files.autoSave": "afterDelay",
+  "diffEditor.maxComputationTime": 0,
+  "window.zoomLevel": 1,
+  "extensions.ignoreRecommendations": true
 }
