@@ -8,33 +8,34 @@ cask "slack"
 cask "discord" 
 cask "telegram" 
 cask "whatsapp" 
-# cask "zoom" 
+# "zoom" 
 
 ## 2. Media
 cask "spotify" 
 cask "vlc" 
+# stremio
 # preview 
 
+
 ## 3. Office
-cask "microsoft-excel"
-cask "microsoft-powerpoint"
-cask "microsoft-word"
-cask "adobe-acrobat-reader" 
 cask "google-drive" 
+cask "adobe-acrobat-reader" 
 # textedit 
+# cask "microsoft-excel"
+# cask "microsoft-powerpoint"
+# cask "microsoft-word"
+
 
 ## 4. Productivity
 cask "marta"
-cask "google-chrome"
 cask "brave-browser"
 cask "iterm2"
 cask "visual-studio-code"
-cask "postman"
+# cask "postman"
 cask "docker" 
 cask "arduino-ide"
+# openlens
 # safari
-# cask "virtualbox"
-# cask "minikube"
 
 ## 5. Settings
 # app store 
@@ -54,16 +55,17 @@ cask "macmediakeyforwarder"
 cask "clocker"
 cask "aldente"
 mas "Horo", id: 1437226581
-mas "Pocket", id: 568494494
+# mas "Pocket", id: 568494494
 # photo boot 
 # calculator 
-# duplicate-file-finder
 # tableplus
 # wireshark
 # amphetamine
 # ledger
-# raycast
+# loom
+# deepl
 # protonvpn
+# duplicate-file-finder
 
 ## Development tools
 brew "pre-commit"
@@ -99,25 +101,9 @@ brew "mas"
 brew "tfenv"
 brew "tflint"
 brew "tfsec"
-tap "coretech/terrafile"
-brew "terrafile"
+# tap "coretech/terrafile"
+# brew "terrafile"
 brew "terraform-docs"
 # tap "gofireflyio/aiac"
 # brew "aiac"
 # brew "terrascan"
-
-## VS Code Plugins
-vscode "DavidAnson.vscode-markdownlint"
-vscode "eamodio.gitlens"
-vscode "esbenp.prettier-vscode"
-vscode "GitHub.copilot"
-vscode "hashicorp.terraform"
-vscode "ms-azuretools.vscode-docker"
-vscode "nhoizey.gremlins"
-vscode "oderwat.indent-rainbow"
-vscode "redhat.vscode-yaml"
-vscode "SebastienMa.ansi-color-code"
-vscode "timkmecl.chatgpt"
-vscode "vscode-icons-team.vscode-icons"
-vscode "wayou.vscode-todo-highlight"
-vscode "ZainChen.json"
