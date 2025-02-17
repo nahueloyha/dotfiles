@@ -4,67 +4,72 @@ tap "homebrew/services"
 tap "homebrew/bundle"
 
 ## 1. Chat / Call
-cask "slack"
-cask "discord" 
 cask "telegram" 
 cask "whatsapp" 
-# "zoom" 
+cask "zoom" 
+cask "slack"
+# ----
+# cask "skype"
+# cask "discord" 
 
 ## 2. Media
 cask "spotify" 
 cask "vlc" 
+# preview (default)
+# ----
 # stremio
-# preview 
-
 
 ## 3. Office
 cask "google-drive" 
-cask "adobe-acrobat-reader" 
-# textedit 
-# cask "microsoft-excel"
-# cask "microsoft-powerpoint"
-# cask "microsoft-word"
-
+cask "foxitreader" 
+# cask "microsoft-word/excel/powerpoint"
+# google docs/sheets/slides
+# textedit (default)
+# freeform (default)
 
 ## 4. Productivity
 cask "marta"
 cask "brave-browser"
+# safari (default)
 cask "iterm2"
-cask "visual-studio-code"
-# cask "postman"
-cask "docker" 
+cask "cursor"
 cask "arduino-ide"
-# openlens
-# safari
+cask "chatgpt"
+cask "claude"
+# ----
+# cask "visual-studio-code"
+# cask "postman"
+# cask "docker" 
+# cask "openlens"
 
 ## 5. Settings
-# app store 
-# system preferences 
-# activity monitor 
-# mission control 
-# find my 
+# app store (default)
+# system preferences (default)
+# activity monitor (default)
+# mission control (default)
+# find my (default)
 
 ## 6. Tools
-cask "simplenote" 
-cask "authy" 
-cask "send-to-kindle"
-cask "rectangle" 
+# calculator (default)
+# photo boot (default)
+# ledger-live (manually)
 cask "the-unarchiver" 
+cask "rectangle" 
+mas "Horo", id: 1437226581
 cask "raycast"
 cask "macmediakeyforwarder"
 cask "clocker"
-cask "aldente"
-mas "Horo", id: 1437226581
+cask "evernote"
+# ----
+# cask "send-to-kindle"
+# protonvpn (manually)
+# cask "aldente"
 # mas "Pocket", id: 568494494
-# photo boot 
-# calculator 
 # tableplus
 # wireshark
 # amphetamine
-# ledger
 # loom
 # deepl
-# protonvpn
 # duplicate-file-finder
 
 ## Development tools
@@ -73,14 +78,14 @@ brew "pre-commit"
 # brew "ruby"
 # brew "python"
 brew "awscli"
-brew "node"
+# brew "node"
 brew "antigen"
 brew "zsh"
 
 ## System tools
 brew "git"
 brew "curl"
-brew "nmap"
+# brew "nmap"
 brew "wget"
 brew "grep"
 brew "tree"
@@ -96,14 +101,17 @@ brew "gnu-which"
 brew "gnutls"
 brew "gnupg"
 brew "mas"
+# brew "ansible" 
+# brew "eksctl"
+# brew "helm"
 
 ## Terraform tools
-brew "tfenv"
-brew "tflint"
-brew "tfsec"
+# brew "tfenv"
+# brew "tflint"
+# brew "tfsec"
 # tap "coretech/terrafile"
 # brew "terrafile"
-brew "terraform-docs"
+# brew "terraform-docs"
 # tap "gofireflyio/aiac"
 # brew "aiac"
 # brew "terrascan"
