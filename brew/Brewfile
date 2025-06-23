@@ -1,29 +1,28 @@
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/bundle"
 
-## 1. Chat / Call
+## 1. Comms
 cask "telegram" 
 cask "whatsapp" 
 cask "zoom" 
 cask "slack"
-# ----
 # cask "skype"
 # cask "discord" 
+# cask "microsoft-teams"
 
 ## 2. Media
 cask "spotify" 
 cask "vlc" 
 # preview (default)
-# ----
-# stremio
+# cask "stremio"
 
 ## 3. Office
 cask "google-drive" 
 cask "foxitreader" 
+cask "evernote"
 # cask "microsoft-word/excel/powerpoint"
-# google docs/sheets/slides
+# cask "google-docs/sheets/slides"
+# notes (default)
 # textedit (default)
 # freeform (default)
 
@@ -31,16 +30,16 @@ cask "foxitreader"
 cask "marta"
 cask "brave-browser"
 # safari (default)
-cask "iterm2"
+# cask "iterm2"
 cask "cursor"
-cask "arduino-ide"
 cask "chatgpt"
 cask "claude"
-# ----
+cask "warp"
 # cask "visual-studio-code"
 # cask "postman"
-# cask "docker" 
+# cask "docker"
 # cask "openlens"
+# cask "arduino-ide"
 
 ## 5. Settings
 # app store (default)
@@ -59,18 +58,10 @@ mas "Horo", id: 1437226581
 cask "raycast"
 cask "macmediakeyforwarder"
 cask "clocker"
-cask "evernote"
-# ----
 # cask "send-to-kindle"
 # protonvpn (manually)
-# cask "aldente"
-# mas "Pocket", id: 568494494
-# tableplus
-# wireshark
-# amphetamine
-# loom
-# deepl
-# duplicate-file-finder
+# cask "tableplus"
+# cask "wireshark"
 
 ## Development tools
 brew "pre-commit"
@@ -79,7 +70,7 @@ brew "pre-commit"
 # brew "python"
 brew "awscli"
 # brew "node"
-brew "antigen"
+# brew "antigen"
 brew "zsh"
 
 ## System tools
@@ -92,7 +83,7 @@ brew "tree"
 brew "watch"
 brew "telnet"
 brew "gcc"
-brew "openssl"
+brew "openssl@3"
 brew "jq"
 brew "gnu-tar"
 brew "gnu-sed"
